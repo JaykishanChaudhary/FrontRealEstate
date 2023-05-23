@@ -1,0 +1,124 @@
+@media screen and (min-width: 768px) {
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        border-color: #0e0909;
+        align-content: space-around;
+    }
+
+    .form-container {
+        width: 71%;
+        padding: 15px;
+        line-height: 30px;
+        padding: 25px 50px 0px 110px;
+        margin-top: 35px;
+        margin-left:75px;
+        padding-bottom:6%;
+        background-color: white;
+        border-radius: 20px;
+        box-shadow: 1px 1px 4px 1px #504d4d
+
+        
+        
+    }
+}
+
+.input {
+    width: 356px;
+    height: 37px;
+   
+}
+
+.selection-input {
+    width: 363px;
+    height: 42px;
+    
+    
+}
+
+.input-box {
+    height: 75px;
+    
+    
+    font-size: 20px;
+    color:#7D7D7D
+}
+
+
+select{
+    color:#7D7D7D;
+}
+label{
+    color:#C3C3C3;
+    font-size: 44px;
+    margin-top: 2%;
+    
+    
+}
+
+.add-property-container {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+
+.btn1 {
+    background-color: #7fbfff;
+    color: white;
+    border-radius: 50px;
+    margin: 30px;
+    padding: 10px;
+    width: 200px;
+    /* border-color: #7fbfff; */
+    border: none;
+    cursor: pointer
+    
+}
+
+.btn2 {
+    background-color: #8a4af3;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    transform: scale(1.1);
+}
+.btn1:hover{
+    transform: scale(1.1);
+}
+
+.navbar {
+    width: 78%;
+    height:30px;
+    border-radius: 30px;
+    margin: auto;
+    height: 32px;
+    background-color: white;
+    margin-top: 20px;
+    
+}
+
+
+.photo-input{
+    font-size: large;
+    /* color: white; */
+    /* margin: 1.1%; */
+    
+}
+#photo-input{
+    display: none;
+    
+}
+.camera-icon{
+    background-color: #6AB4F8;
+    padding: 20px;
+    color: white;
+    border-radius: 50%;
+    margin-bottom: -12%;
+    margin-right: 16px;
+}
